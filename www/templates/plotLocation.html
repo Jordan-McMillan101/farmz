@@ -1,0 +1,10 @@
+<ion-view title="Plot Location" id="page9">
+  <ion-content padding="true" class="has-header">
+    <h4 id="plotLocation-heading13" style="color:#000000;">12 Main St, Columbus Ohio 43215</h4>
+    <creator-map-component options="{}" marker="true" location="Madison Capital" zoom="12" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+  </ion-content>
+</ion-view>
